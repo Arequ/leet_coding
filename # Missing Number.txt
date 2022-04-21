@@ -1,0 +1,27 @@
+# Missing Number
+
+"""
+Given an array nums containing n distinct numbers in the range [0, n] return the only number in the range that is missing from the array.
+Follow up: Could you implement a solution using only o(1) extra space complexity and O(n) runtime complexity?
+"""
+
+
+# O(1) will need some binary properties
+# XOR operator is required or "exclusive-or" operator.
+# Lets say we wanna 2 ^ 3 (^ is the symbol for XOR)
+# bit reps of each     1 0
+#                      1 1
+# If they're different:  1
+# Otherwise we get:      0
+
+# Example:
+# input: [3, 0, 1]
+# range = len(input)
+# range = [0, 3]
+# now we can 
+# [3,0,1] ^ [0,1,2,3]
+
+
+# Another way, what is took the sum of the range
+sum(range())
+# 
